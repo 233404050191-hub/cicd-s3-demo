@@ -33,8 +33,9 @@ jobs:
 
       - name: Deploy website to S3
         run: |
-          aws s3 sync . s3://cicd-web-ngan-1172026 \
+          aws s3 sync site/ s3://cicd-web-ngan-1172026 \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "README.md" \
             --delete
+
