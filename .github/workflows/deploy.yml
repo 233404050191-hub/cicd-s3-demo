@@ -1,4 +1,4 @@
-```yaml
+
 name: CI-CD Deploy to Amazon S3
 
 on:
