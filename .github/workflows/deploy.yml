@@ -38,4 +38,3 @@ jobs:
             --exclude ".github/*" \
             --exclude "README.md" \
             --delete
-```
